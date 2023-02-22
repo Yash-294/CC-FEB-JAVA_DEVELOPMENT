@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Font?>
+
+<VBox  spacing="5.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.codeclausetask1.Task1Controller" style="-fx-background-color:#20262E;">
+   <children>
+      <Label text="CodeClause" style="-fx-font-family:Consolas; -fx-text-fill:#A5F1E9; -fx-font-size:40;"/>
+      <Label text="Task-1" style="-fx-font-size:30; -fx-font-family:Consolas; -fx-text-fill:#E9E8E8;"/>
+      <Label text="Time Conversion by Country" style="-fx-font-size:25; -fx-font-family:Consolas; -fx-text-fill:#E9E8E8;-fx-padding:15 0 0 0"/>
+      <HBox style="-fx-padding:0 50 0 50;">
+         <Label text="Indian Time --> " style="-fx-font-size:20; -fx-font-family:Consolas; -fx-text-fill:#E9E8E8;-fx-padding:25 0 25 0"/>
+         <Label text="Time in India" fx:id="indiantime" style="-fx-font-size:20; -fx-font-family:Consolas; -fx-text-fill:#E9E8E8;-fx-padding:25 0 25 0"/>
+      </HBox>
+      <HBox style="-fx-padding:0 50 0 50;">
+         <ComboBox fx:id="country" promptText="Select Country" style="-fx-font-size:20; -fx-color:#20262E; -fx-font-family:Consolas; -fx-text-fill:#E9E8E8;-fx-padding:25 0 25 0"/>
+         <Label text=" --> Time in Other Countries" fx:id="countrytime" style="-fx-font-size:20; -fx-font-family:Consolas; -fx-text-fill:#E9E8E8;-fx-padding:25 0 25 0"/>
+      </HBox>
+      <Label text="-By Yash Shinde" style="-fx-font-size:25; -fx-font-family:Consolas; -fx-text-fill:#E9E8E8;-fx-padding:50 0 0 0;"/>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+   </padding>
+</VBox>
